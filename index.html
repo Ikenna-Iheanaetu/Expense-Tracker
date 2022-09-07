@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Tracker</title>
+
+    <!-- boxicons cdn  -->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- Custom Styles for this webpage -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <div class="container" id="idContainer">
+    <div class="head">
+            <div class="header">
+                Expense Tracker
+            </div>
+
+            <div class="expenses">
+                <input type="text" name="" placeholder="Enter Expense" id="expense">
+
+                <input type="date" placeholder="dd/mm/yyyy" name="" id="date">
+
+                <br />
+
+                <input type="number" name="" placeholder="Enter Expense Amount" id="amount">
+
+                <button id="submit">Add Expense</button>
+
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="body">
+            <ul class="f-row">
+                <li class="table-header">
+                    <div class="col col-1">Name</div>
+                    <div class="col col-2">Date</div>
+                    <div class="col col-3">Amount</div>
+                    <div class="col col-4"></div>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="./index.js"></script>
+</body>
+
+</html>
