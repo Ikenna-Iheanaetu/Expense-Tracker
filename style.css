@@ -66,6 +66,14 @@ button{
     transform: scale(1.03) translateY(-5px);
 }
 
+/* Media queries  */
+@media (max-width: 400px){
+    .expenses{
+        position: relative;
+        right: 60px;
+    }
+}
+
 /* horizontal line  */
 hr{
     margin: 0 2.5rem;
